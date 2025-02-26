@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>דף עם רעיונות</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            padding-top: 50px;
+        }
+
+        .ideas-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 15px;
+        }
+
+        .idea-box {
+            background: white;
+            width: 200px;
+            height: 120px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .idea-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .idea-description {
+            font-size: 12px;
+            color: #555;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 30px;
+        }
+
+        .button:hover {
+            background-color: #005f73;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ideas-container">
+        <div class="idea-box">
+            <div class="idea-title">רעיון 1</div>
+            <div class="idea-description">תיאור הרעיון הראשון. כאן תוכל להוסיף פרטים על הרעיון המפורט.</div>
+        </div>
+        <div class="idea-box">
+            <div class="idea-title">רעיון 2</div>
+            <div class="idea-description">תיאור הרעיון השני. כאן תוכל להוסיף פרטים נוספים על הרעיון השני.</div>
+        </div>
+        <div class="idea-box">
+            <div class="idea-title">רעיון 3</div>
+            <div class="idea-description">תיאור הרעיון השלישי. ניתן להוסיף כאן תיאורים נוספים של הרעיון או רעיונות דומים.</div>
+        </div>
+        <div class="idea-box">
+            <div class="idea-title">רעיון 4</div>
+            <div class="idea-description">תיאור הרעיון הרביעי. פרטים על רעיון נוסף כאן.</div>
+        </div>
+        <div class="idea-box">
+            <div class="idea-title">רעיון 5</div>
+            <div class="idea-description">תיאור הרעיון החמישי. כאן אפשר להוסיף מידע נוסף על הרעיון.</div>
+        </div>
+    </div>
+
+    <button class="button" onclick="window.location.href='index.html';">חזור לדף הראשי</button>
+
+</body>
+</html>
